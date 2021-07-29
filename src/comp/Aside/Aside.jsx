@@ -1,8 +1,9 @@
 import React from 'react';
+import s from './Aside.module.css';
 
 const Aside = () => {
     return (
-        <aside className='aside'>
+        <aside className={s.aside}>
             <ul>
                 <li><a href="">Profile</a></li>
                 <li><a href="">Messages</a></li>

@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from "./comp/Header";
-import Aside from "./comp/Aside";
-import Main from "./comp/Main";
+import Header from "./comp/Header/Header";
+import Aside from "./comp/Aside/Aside";
+import Main from "./comp/Main/Main";
 
-const App = () => {
+ const App = () => {
   return (
     <div className='app-wrapper'>
         <Header />

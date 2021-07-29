@@ -1,0 +1,10 @@
+.main {
+    text-align: center;
+    grid-area: c;
+    border: 1px solid blue;
+}
+
+.header {
+    width: 900px;
+    height: 150px;
+}
