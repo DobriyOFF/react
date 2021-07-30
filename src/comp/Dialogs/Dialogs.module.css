@@ -9,8 +9,8 @@
 .dialogsList {
     color: grey;
 }
-.active {
-
+a.active {
+    color: grey;
 }
 .item {
 

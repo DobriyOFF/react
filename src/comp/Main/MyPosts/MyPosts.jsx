@@ -2,6 +2,13 @@ import React from 'react';
 import s from './MyPosts.module.css';
 import Post from "./Post/Post";
 
+let postsData = [
+    {id: 1, message: 'Hi, How are you', likesCount: 12},
+    {id: 2, message: 'Hello?', likesCount: 4}
+]
+
+let postsElement = postsData.map ( p => <Post message={p.message} like={p.likesCount}/>)
+
 const MyPosts = () => {
     return (
         <section className={s.main}>
@@ -10,8 +17,7 @@ const MyPosts = () => {
                 <input type="text" name="" id=""/>
                 <button>Send</button>
             </div>
-            <Post message='Hi, How are you' like='3'/> <span>Like:</span>
-            <Post message='Hello' like='1'/>
+            { postsElement }
         </section>
     );
 }

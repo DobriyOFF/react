@@ -9,7 +9,7 @@ const Aside = () => {
                 <li><NavLink to="/profile" activeClassName={s.active}>Profile</NavLink></li>
                 <li><NavLink to="/dialogs" activeClassName={s.active}>Messages</NavLink></li>
                 <li><NavLink to="/news" activeClassName={s.active}>News</NavLink></li>
-                <li><NavLink to="/music" activeClassName={s.active}yjgq2z3eqœŒQ>Music</NavLink></li>
+                <li><NavLink to="/music" activeClassName={s.active}>Music</NavLink></li>
             </ul>
         </aside>
     );
