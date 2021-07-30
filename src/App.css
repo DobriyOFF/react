@@ -1,0 +1,24 @@
+.app-wrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-wrapper {
+    display: grid;
+    grid-template-areas:
+  "h h"
+  "a c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /*grid-gap: 10px;*/
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    border: 1px solid blue;
+}
