@@ -10,7 +10,7 @@ const MyPosts = () => {
                 <input type="text" name="" id=""/>
                 <button>Send</button>
             </div>
-            <Post message='Hi, How are you' like='3'/>
+            <Post message='Hi, How are you' like='3'/> <span>Like:</span>
             <Post message='Hello' like='1'/>
         </section>
     );
